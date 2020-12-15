@@ -1,0 +1,2 @@
+run="yarn download-data && yarn start"
+language="nodejs"

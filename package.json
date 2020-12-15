@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node index.ts",
-    "download-data": "curl 'https://api.coronavirus.data.gov.uk/v2/data?areaType=utla&metric=newCasesBySpecimenDateRollingRate&format=csv' > input.csv",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "download-data": "curl 'https://api.coronavirus.data.gov.uk/v2/data?areaType=utla&metric=newCasesBySpecimenDateRollingRate&format=csv' > input.csv"
   },
   "author": "",
   "license": "ISC",
